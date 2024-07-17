@@ -16,7 +16,7 @@ const NavbarComponent = () => {
             <Link className='nav-content' to='/events'>Events</Link>
         </div>
         <Routes>
-            <Route exact path='/REACT-DOM-WEBSITE' element={<HomeComponent/>}></Route>
+            <Route exact path='/REACT-DOM-WEBSITE'  element={<HomeComponent/>}></Route>
             <Route exact path='/about' element={<AboutUsCompnent/>}></Route>
             <Route exact path='/department' element={<DepartmentComponent/>}></Route>
             <Route exact path='/events' element={<EventsComponent/>}></Route>
